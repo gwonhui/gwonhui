@@ -1,0 +1,86 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #D3D3D3; margin: 0px;
+	padding: 0px; font-size: 0.75em;
+	line-height: 1.2em; color: #333;
+}/*배경색 #D3D3D3 밖여백 0 안여백 0 글자크기 0.75em
+줄간격 1.2em 글자색 #333*/
+#wrap{
+	width: 971px; text-align: left;
+	margin: 0;margin-right: 450px;margin-left: 450px;
+	min-height: 780px;
+	background-color: #F5F5F5;
+	background-repeat: repeat-y;
+}/*너비 : 971px 글자정렬 left 밖여백 0 
+밖오른쪽여백 auto 밖왼쪽여백 auto  최소높이 780px
+배경이미지 shadow.png 배경이미지반복 y*/
+#wrap1{
+	width: 971px; text-align: left;
+	margin: 0;margin-right: 450px;margin-left: 450px;
+	min-height: 780px;
+	background-color: #F5F5F5;
+	background-repeat: repeat-y;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+}
+#login{float: right;margin: 20px 64px 0 0;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;word-spacing: 5px}
+/*정렬 오른쪽 밖여백 20 64 0 0  
+글자체 Arial,Helvetica,sans-serif 크기 12px 
+단어간격 5px*/
+#login a{text-decoration: none; color: #333}
+/* 하이퍼링크 밑줄 없음 글자색 #333*/
+#login a:hover{color: #F90}
+/* 하이퍼링크 hover 글자색 #F90*/
+.clear{clear: both;}/*영역구분*/
+#logo{float: left;width: 265px; margin: 60px 0 0 40px}
+/*정렬 왼쪽 너비 265px 밖여백 60px 0 0 40px*/
+header{height: 151px;margin: 0px;padding: 0px}
+/*높이 151px 밖여백 0 안여백 0*/
+nav#top_menu{width: 600px; margin: 50px 20px 0 0;
+float: right;}
+/*너비 600px 밖여백 50px 20px 0 0 정렬 오른쪽*/
+nav#top_menu ul{list-style:none;
+font-family: verdana,Geneba,sans-serif;
+font-size: 13px;font-weight: 100;color: #333}
+/*스타일없음 글자체 verdana,Geneba,sans-serif 
+글자크기 13px 글자굵기 100 글자색 #333*/
+nav#top_menu li{float: left;margin: 0 5px;}
+/*정렬 왼쪽 밖여잭 0 5px*/
+nav#top_menu a{display: block; height: 20px;
+padding: 10px; text-decoration: none;color: #333}
+/*block 높이 20px 안여백 10px 밑줄 없음 글자색 #333*/
+nav#top_menu a:hover{
+	background-image:url("../images/blue.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;}
+/*배경이미지 blue.gif 배경반복 x 배경위치 아래*/
+
+/*footer부분*/
+/*글자체 seo*/
+@font-face{font-family: "seo";
+src: url("../images/segoeui.eot");
+src: local(""),
+     url("../images/segoeui.woff")format("woff"),
+     url("../images/segoeui.ttf")format("truetype");}
+footer{
+	margin: 50px 0 0 0;
+	height: 80px;
+	background-image: url("../images/gwon.jpg");
+	background-repeat: no-repeat;
+	background-position: 40px center;
+}
+/*밖여백 50px 0 0 0 높이 80px 배경이미지under_logo.gif
+배경반복 no-repeat 위치 40px center*/
+footer hr{width: 900px;margin: 0 0 0 20px}
+/*너비 900px 밖여백 0 0 0 20px*/
+footer #copy{font-family: seo; width: 450px;
+margin: 20px 0 0 190px; float: left;}
+/*글자체 seo 너비 450px 밖여백 20px 0 0  190px 정렬 left*/
+footer #social{width: 130px; margin: 20px 20px 0 0;
+float: right;}
+/*너비 130px 밖여백 20px 20px 0 0
+정렬 오른쪽*/
+footer #social img{margin: 0 7px}/*밖여백 0 7px*/
+
